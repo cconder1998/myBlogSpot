@@ -2,6 +2,8 @@ body {
 	background-image: url("background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+        background-position: center;
 	font-family: Source Code Pro;
 	margin-bottom: 0;
 	text-align: center;
