@@ -1,0 +1,62 @@
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Source Code Pro;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 64px;
+	margin: 20px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: FFFFFF;
+	text-align: center;
+	margin: 20px;
+	border: 20px;
+	border-style: solid;
+	border-color: white;
+}
+
+.topnav a {
+	float: center;
+	color: #333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.topnav a:hover {
+	color: #AFAFAF;
+}
+
+.entry {
+	background-color: #AFAFAF;
+	opacity: 0.8;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 15px;
+}
+
+.entryCenter {
+	background-color: #AFAFAF;
+	opacity: 0.8;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	text-align: center;
+}
+
+.tail {
+	text-align: center;
+}
