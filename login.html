@@ -8,8 +8,35 @@
 
 </head>
 <body>
+<h1>my Blog Spot</h1>
 
-<p>Login here</p>
+<div class="topnav">
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="index.html"><strong>myBS</strong></a>
+	<a href="contact.html">Contact</a>
+	<a href="join.html">Join</a>
+</div>
+
+<div class="entryCenter">
+	<h2>JCreate an Account</h2>
+	<p>Make your own account</p>
+	<p>Personalize your experience on myBlogSpot</p>
+	<p>Please enter your name and email address below</p>
+	<p>
+		<label asp-for="Name">Your name:</label>
+		<input asp-for="Name"/>
+	</p>
+	<p>
+		<label asp-for="Email">Your email:</label>
+		<input asp-for="Email"/>
+	</p>
+	<button type="submit">Submit</button>
+</div>
+
+<div class="tail">
+	<p>bottom</p>
+</div>
 
 </body>
 </html>
