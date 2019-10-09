@@ -62,3 +62,13 @@ h1 {
 .tail {
 	text-align: center;
 }
+
+.login-box {
+	overflow: hidden;
+	background-color: FFFFFF;
+	text-align: center;
+	margin: 20px;
+	border: 20px;
+	border-style: solid;
+	border-color: white;
+}
